@@ -242,6 +242,12 @@ body, html {
     }
   }
 
+  @media(max-width:600px){
+    form{
+        transform: translateY(75px);
+    }
+  }
+
 
 
 

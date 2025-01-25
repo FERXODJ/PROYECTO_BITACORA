@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="Style/style_registro.css">
+    <link rel="shortcut icon" href="Img/LOGO.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div id="cabeza">
+
+            <div class="container01"><a href="index.html"><img src="Img/Regresar.svg" alt="regresar" class="img_regresar"></a></div>
+                <div class="container02">
+                    <form action="#">
+                        <div class="imglogo"><img src="Img/LOGOHOME.svg" alt="wow" class="logo"></div>
+
+                        <p class="login-text">Registro</p>
+
+                        <div style="position: relative;">
+                            <label for="nombre_input" id="nombre">Nombre</label>
+                            <input type="text" id="nombre_input" class="input_txt" placeholder=" " required autofocus>   
+                          </div>
+                          <div style="position: relative;">
+                            <label for="apellido_input" id="apellido">Apellido</label>
+                            <input type="text" id="apellido_input" class="input_txt" placeholder=" " required>   
+                          </div>
+                          <div style="position: relative;">
+                            <label for="usuario_input" id="usuario">Usuario</label>
+                            <input type="text" id="usuario_input" class="input_txt" placeholder=" " required>   
+                          </div>
+                          <div style="position: relative;">
+                            <label for="clave_input" id="clave">Contraseña</label>
+                            <input type="text" id="clave_input" class="input_txt" placeholder=" " required>   
+                          </div>
+                          <div style="position: relative;">
+                            <label for="cargo_input" id="cargo">Cargo</label>
+                            <select name="cargo" id="select-cargo">
+                                <option value="cargo1">Analista</option>
+                                <option value="cargo2">Especialista</option>
+                                <option value="cargo3">Supervisor</option>
+                                <option value="cargo3">Gerente</option>
+                            </select>
+                            
+                          </div>
+    
+                        <div class="img01"><img src="Img/Registro01.svg" alt="img" class="img01v2"></div>
+
+                        <div style="position: relative;" class="container_btn">
+                            <input type="submit" value="Registrar" id="btn_registrar">
+                          </div>
+                    </form>
+                </div>
+                    <div class="container03"></div>
+        </div>
+       
+    </header>
+</body>
+</html>
